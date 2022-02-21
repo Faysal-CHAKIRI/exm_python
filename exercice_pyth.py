@@ -46,10 +46,10 @@ class my_task():
                 return
 
             if (self.name == "Pump 1" or self.name == "Pump 2") and tank == 50:
-                print("Pump blocked because tank full")
+                print("Pump bloqué car tank est plein")
                 return
             elif (self.name == "Pump 1" and tank + 10 > 50) or (self.name == "Pump 2" and tank + 20 > 50):
-                print("Pump blocked because add oil will involve excess storage")
+                print("Pump bloqué car l'ajout d'huil impliquera axcés de stockage")
                 return
             elif self.name == "Pump 1":
                 tank = tank + 10
